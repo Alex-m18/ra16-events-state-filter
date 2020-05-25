@@ -1,0 +1,26 @@
+.toolbar {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.filter {
+  border: 1px solid lightgrey;
+  margin: 5px 3px;
+  padding: 0 3px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.filter.selected {
+  background-color: lightblue;
+}
+
+.project-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  border: 1px solid lightgrey;
+  margin: 5px;
+}
